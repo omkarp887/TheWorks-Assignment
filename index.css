@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    margin-left: 191px;
+}
+
+.main-content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 300px 700px;
+    margin: auto;
+    height: 1000px;
+    margin: 20px auto;
+}
+
+
+.left-section{
+    border: 1px solid rgb(210, 99, 30);
+    background-color: rgb(210, 99, 30);
+    color: white;
+    padding: 1rem;
+    grid-column: span 1;
+    margin-left: 12px;
+}
+
+.right-section{
+    border: 1px solid rgb(210, 99, 30);
+    background-color: rgb(210, 99, 30);
+    color: black;
+    grid-column: span 1/ span 2;
+    width: 90%;
+}
+
+.profile {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+    margin-top: 34px;
+    margin-left: -68px;
+    margin-bottom: 67px;
+}
+
+.work {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: -68px;
+}
+
+.skills{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: -68px;
+}
+
+.interest {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+    margin-top: 165px;
+    margin-bottom: 98px;
+    margin-left: -71px;
+}
+
+.education {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: -68px;
+}
+
+.right-content{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: -68px;
+    margin-right: 42px;
+}
+
+.left-con {
+    /* border-left: 2px solid black; */
+    margin-left: -12px;
+}
+.space-gap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 1rem;
+    margin-left: -2px;
+}
+
+.about {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.name {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 2rem;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: .4rem;
+    margin-left: -4px;
+    margin-right: 33px;
+}
+
+.role {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 0rem;
+}
+
+.about-contents {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    border-bottom: 2px solid black;
+    padding-left: 2px;
+    margin-top: 19px;
+    margin-left: -30px;
+}
+
+.experience-time {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 2rem;
+}
+
+.exp-desc {
+    display: grid;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    border-left: 3px solid black;
+    padding-left: 5px;
+}
+.right-content-1 {
+    padding: 3rem 0;
+    margin-top: -30px;
+    margin-left: -68px;
+}
+
+.left-content-2 {
+    margin-top: -27px;
+    margin-left: -202px;
+}
+
+.left-content {
+    margin-left: -201px;
+    margin-top: -19px;
+}
+.right-content-2 {
+    border-bottom: 2px solid black;
+    margin-left: -69px;
+    margin-top: -8px;
+}
+
+.left-content-1 {
+    border-bottom: 2px solid black;
+    margin-top: -33px;
+    margin-left: -201px;
+}
+
+.left-content-3 {
+    margin-top: -19px;
+    margin-left: -200px;
+}
+
+.left-content-4 {
+    margin-top: -11px;
+    margin-left: -200px;
+}
+.right-content-3 {
+    padding: 3rem 0;
+    margin-top: -37px;
+    margin-left: -69px;
+}
+
+
+
+.space-gap-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 1rem;
+    margin-left: -3px;
+    margin-top: 1px;
+}
+
+.progress-bar{
+    border: 1px white solid;
+    height: 7px;
+    /* width: 102px; */
+    margin-right: -93px
+}
+
+.skill-name{
+    /* font-size: 1.9rem; */
+    text-align: left;
+    padding-bottom: 0.5rem;
+    /* margin-top: -9px; */
+    margin-top: 19px;
+}
+
+.right-content-skills {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-top: -12px;
+    margin-bottom: 9px;
+    margin-left: -68px;
+    margin-right: 76px;
+}
+
+.left-con-skills {
+    border-bottom: 2px solid black;
+    margin-left: -75px;
+    margin-bottom: 9px;
+    margin-top: -9px;
+    margin-right: 5px;
+}
+
+.music {
+    border-bottom: 2px solid black;
+}
+
+.movies {
+    border-bottom: 2px solid black;
+    margin-left: -64px;
+}
+
+.internet {
+    margin-left: -63px ;
+}
+
+.sketch {
+    margin-left: 1px ;
+}
+
+@media only screen and (max-width: 673px) {
+    .main-content {
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        min-height: 1000px;
+    }
+}
